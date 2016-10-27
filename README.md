@@ -1,6 +1,8 @@
 # rungeict/nprobe
 Centos:7 image for ntop's nprobe
 
+[![Docker Repository on Quay](https://quay.io/repository/rungeict/nprobe/status "Docker Repository on Quay")](https://quay.io/repository/rungeict/nprobe)
+
 ## Introduction
 In commercial environments, NetFlow is probably the de-facto standard for network traffic accounting. nProbe includes both a NetFlow v5/v9/IPFIX probe and collector that can be used to play with NetFlow flows. This means nProbe™ can be used:
 
@@ -9,7 +11,7 @@ In commercial environments, NetFlow is probably the de-facto standard for networ
  - To analyze multi-Gbit networks at full speed with no (or very moderate) packet loss
  - To send monitored flows towards a collector such as the open-source ntopng or a commercial one (e.g. Cisco NetFlow Collector or Plixer)
  
-Currently nProbe™ is a software application available stand-alone or as an embedded system named nBox .
+Currently nProbe™ is a software application available stand-alone or as an embedded system named nBox.
 
 http://www.ntop.org/products/netflow/nprobe/
 
